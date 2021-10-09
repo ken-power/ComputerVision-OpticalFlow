@@ -1,2 +1,1 @@
-# ComputerVision-OpticalFlow
-Optical Flow and Deep Learning Use Cases
+# Optical Flow and Deep Learning Use Cases
