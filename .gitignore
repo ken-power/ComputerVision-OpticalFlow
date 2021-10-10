@@ -7,3 +7,5 @@ __pycache__/
 # Ingore the output directory
 output/
 
+# Ignore flownet test data for now - it's over 2GB
+data/flownet_data
