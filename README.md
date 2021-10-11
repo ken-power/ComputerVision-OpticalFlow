@@ -1,18 +1,32 @@
-# Optical Flow and Deep Learning Use Cases
+# Optical Flow and Deep Learning
+
+A set of projects that illustrate different approches to Optical Flow.
 
 ## Projects
 
 [Optical Flow](OpticalFlow) explores three techniques to tackle the tracking problem:
 
-1. Feature Tracking
+_1. Feature Tracking_
+![](OpticalFlow/images/feature_matching.png)
+
 2. Sparse Optical Flow
+![](OpticalFlow/images/skateboard_sparse_optical_flow.gif)
+
 3. Dense Optical Flow
+![](OpticalFlow/images/skateboard_dense_optical_flow.gif)
 
 [FlowNet](FlowNet) illustrates Deep Learning for Optical Flow by implementing the FlowNet algorithm using PyTorch and training the models on the KITTI dataset. The goal is to output the optical flow of two images.
+![](FlowNet/images/flownet_2_images.png)
 
 [RAFT](RAFT) explores the RAFT deep network architecture for optical flow.
+![](RAFT/images/obstacle_motion_time.png)
+
+Here is the same video  of the skateboarder as used above to illustrate sparse and dense optical flow, this time using RAFT:
+![](RAFT/images/raft_output.gif)
 
 [Visual SLAM](VisualSLAM) shows an example of Visual SLAM (Simultaneous Localization and Mapping) using visual features.
+
+![](VisualSLAM/images/3d_pointcloud.png)
 
 ## Datasets
 
