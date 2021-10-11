@@ -12,3 +12,5 @@ by implementing the FlowNet algorithm using PyTorch and training the models on t
 
 [RAFT](RAFT) explores the RAFT deep network architecture for optical flow.
 
+[Visual SLAM](VisualSLAM) shows an example of Visual SLAM (Simultaneous Localization and Mapping) using visual features.
+
