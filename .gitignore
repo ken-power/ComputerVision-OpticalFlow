@@ -8,4 +8,8 @@ __pycache__/
 output/
 
 # Ignore flownet test data for now - it's over 2GB
-data/flownet_data
+flownet_data/
+FlowNet/models/
+
+# Ignore RAFT repo
+RAFT/RAFT
