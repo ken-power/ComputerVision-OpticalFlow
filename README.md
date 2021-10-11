@@ -22,6 +22,26 @@ The stereo 2015 / flow 2015 / scene flow 2015 benchmark consists of 200 training
 
 Geiger, A, P. Lenz, R. URtasun, 2015. [Optical Flow Evaluation 2015](http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=flow). The KITTI Vision Benchmark Suite: A project of Karlsruhe Institute of Technology and Toyota Technological Institute at Chicago.
 
+**HD1K Benchmark Suite**
+
+The [HD1K Benchmark Suite](http://hci-benchmark.iwr.uni-heidelberg.de) is an autnonomous driving dataset and benchmark for optical flow. The public training dataset contains:
+* More than 1000 frames at 2560x1080 with diverse lighting and weather scenarios
+* reference data with error bars for optical flow
+* evaluation masks for dynamic objects
+* specific robustness evaluation on challenging scenes
+
+**The "Flying Chairs" Dataset**
+
+The ["Flying Chairs"](https://lmb.informatik.uni-freiburg.de/resources/datasets/FlyingChairs.en.html#flyingchairs) are a synthetic dataset with optical flow ground truth. It consists of 22872 image pairs and corresponding flow fields. Images show renderings of 3D chair models moving in front of random backgrounds from Flickr. Motions of both the chairs and the background are purely planar.
+
+**Scene Flow Datasets: FlyingThings3D, Driving, Monkaa**
+
+The [Scene Flow Datasets collection](https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html) contains more than 39000 stereo frames in 960x540 pixel resolution, rendered from various synthetic sequences. [Mayer, et al (2016)](#references) reference and describe these datasets.
+
+**MPI Sintel Flow Dataset**
+
+The [MPI Sintel Flow Dataset](http://sintel.is.tue.mpg.de) is a data set for the evaluation of optical flow derived from the open source 3D animated short film, [Sintel](https://durian.blender.org).
+
 ## References
 * Dosovitskiy, A., Fischer, P., Ilg, E., Hausser, P., Hazirbas, C., Golkov, V., Van Der Smagt, P., Cremers, D. and Brox, T., 2015. [Flownet: Learning optical flow with convolutional networks](https://arxiv.org/pdf/1504.06852). In Proceedings of the IEEE international conference on computer vision (pp. 2758-2766).
 * Teed, Z. and Deng, J., 2020, August. [RAFT: Recurrent all-pairs field transforms for optical flow](https://arxiv.org/pdf/2003.12039). In European conference on computer vision (pp. 402-419). Springer, Cham.
@@ -35,6 +55,7 @@ Geiger, A, P. Lenz, R. URtasun, 2015. [Optical Flow Evaluation 2015](http://www.
 * Ilg, E., Mayer, N., Saikia, T., Keuper, M., Dosovitskiy, A. and Brox, T., 2017. [Flownet 2.0: Evolution of optical flow estimation with deep networks](https://openaccess.thecvf.com/content_cvpr_2017/papers/Ilg_FlowNet_2.0_Evolution_CVPR_2017_paper.pdf). In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 2462-2470).
 * Ziyun Li, 2017. [A Brief Review of FlowNet](https://towardsdatascience.com/a-brief-review-of-flownet-dca6bd574de0). towardsdatascience.
 * Ranjan, A. and Black, M.J., 2017. [Optical flow estimation using a spatial pyramid network](https://openaccess.thecvf.com/content_cvpr_2017/papers/Ranjan_Optical_Flow_Estimation_CVPR_2017_paper.pdf). In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 4161-4170).
+* Mayer, N., Ilg, E., Hausser, P., Fischer, P., Cremers, D., Dosovitskiy, A. and Brox, T., 2016. [A large dataset to train convolutional networks for disparity, optical flow, and scene flow estimation](https://openaccess.thecvf.com/content_cvpr_2016/papers/Mayer_A_Large_Dataset_CVPR_2016_paper.pdf). In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 4040-4048).
 
 **University Courses**
 * Fei‐Fei Li, 2011. [Tracking motion features – optical flow](http://vision.stanford.edu/teaching/cs231a_autumn1112/lecture/lecture13_optical_flow_cs231a.pdf). Stanford Vision Lab.
