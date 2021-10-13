@@ -6,13 +6,13 @@ A set of projects that illustrate different approches to Optical Flow.
 
 [Optical Flow](OpticalFlow) explores three techniques to tackle the tracking problem:
 
-_1. Feature Tracking_
+1. [Feature_Tracking.ipynb](OpticalFlow/Feature_Tracking.ipynb) illustrates how to detect and track features across consecutive images.
 ![](OpticalFlow/images/feature_matching.png)
 
-2. Sparse Optical Flow
+2. [Sparse_Optical_Flow.ipynb](OpticalFlow/Sparse_Optical_Flow.ipynb) illustrates how to use sparse optical flow on images and videos.
 ![](OpticalFlow/images/skateboard_sparse_optical_flow.gif)
 
-3. Dense Optical Flow
+3. [Dense_Optical_Flow.ipynb](OpticalFlow/Dense_Optical_Flow.ipynb) illustrates how to use dense optical flow on images and videos.
 ![](OpticalFlow/images/skateboard_dense_optical_flow.gif)
 
 [FlowNet](FlowNet) illustrates Deep Learning for Optical Flow by implementing the FlowNet algorithm using PyTorch and training the models on the KITTI dataset. The goal is to output the optical flow of two images.
@@ -79,3 +79,4 @@ The [MPI Sintel Flow Dataset](http://sintel.is.tue.mpg.de) is a data set for the
 * Ruoteng Li 李若腾. [Optical Flow Toolkit](https://github.com/liruoteng/OpticalFlowToolkit).
 * Clement Pinard. [FlowNetPytorch](https://github.com/ClementPinard/FlowNetPytorch). FlowNet implementation in PyTorch.
 * Zachary Teed and Jia Deng. [Source Code from the paper _RAFT: Recurrent All Pairs Field Transforms for Optical Flow_](https://github.com/princeton-vl/RAFT).
+* Chuan-en Lin. [Source code for the article _'Motion Estimation with Optical Flow'_](https://github.com/chuanenlin/optical-flow)
